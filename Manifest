@@ -1,0 +1,11 @@
+project: default
+source:
+  repoURL: https://github.com/Mohite2017/Kubernates-main.git
+  path: Kubernetes-main-main/Kubernetes-main-main/day-3-service
+  targetRevision: HEAD
+destination:
+  server: https://kubernetes.default.svc
+  namespace: dev
+syncPolicy:
+  automated:
+    enabled: true
